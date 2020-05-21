@@ -7,3 +7,12 @@ body {
 main {
     flex-grow: 1;
 }
+
+.scroll {
+    max-height: 40vh;
+    overflow-y: scroll;
+}
+.scroll2 {
+    max-height: 80vh;
+    overflow-y: scroll;
+}

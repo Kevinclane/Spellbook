@@ -7,16 +7,52 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
-    <title>spellbook</title>
+    <title>Spellbook</title>
 </head>
 
 <body>
     <header class="container-fluid bg-info text-light text-center">
-        <h1>spellbook</h1>
+        <h1>Spellbook</h1>
     </header>
-    <main class="container">
 
+
+
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="text-center">API SPELLS</h2>
+                <div class="row">
+                    <ol id="apiSpells" class="col-12 scroll">
+
+                    </ol>
+
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2>My Spell</h2>
+                        <div id="mySpells" class="scroll">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <h1 class="text-center">Active Spell</h1>
+                <div id="activeSpell" class="scroll2">
+
+                </div>
+            </div>
+        </div>
     </main>
+
+
+
+
+
+
+
+
     <footer class="container-fluid bg-info text-light">
         <div class="row text-center">
             <div class="col">
@@ -26,7 +62,7 @@
     </footer>
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script src="app/main.js" type="module"></script>
 </body>
 
